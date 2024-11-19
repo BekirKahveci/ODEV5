@@ -104,11 +104,132 @@ text-decoration-skip-ink: none;
     text-decoration-skip-ink: none;
     margin: 20px;
 }
-.user{
-    display: flex;
+.user {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
 }
-.user img{
-    width: 59px;
-    height: 59px;
-    border-radius: 50%;
+
+.profile-pic{
+    width: 59px; 
+    height: 59px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-left: 20px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column; 
+    line-height: 1.2; 
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold; 
+    color: #000; 
+}
+
+.title {
+    font-size: 14px; 
+    color: #888; 
+}
+.submenu {
+    width: 1280px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 20px;
+    margin-top: 50px; 
+}
+
+.sendpay {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.logo-area{
+    display: flex;
+    gap: 10px;
+    margin-left: 121px;
+}
+.description{
+    max-width: 300px;
+    margin-top: 50px;
+    margin-left: 121px;
+}
+.logo{
+    width: 51px;
+    height: 51px;
+}
+#icon {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6c63ff; 
+    padding-top: 10px;
+}
+
+#lorem {
+    font-size: 14px;
+    color: #888; 
+    margin: 0;
+}
+
+.products, .abouts, .catalogs, .social-area {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    text-align: left; 
+}
+.products, .abouts, .catalogs{
+    margin-top: 15px;
+}
+.head {
+    font-size: 16px;
+    color: #888 !important; 
+    margin-bottom: 10px;
+}
+
+.product, .about, .catalog {
+    font-size: 14px;
+    color: black; 
+    font-weight: bold;
+    cursor: pointer; 
+    transition: color 0.3s ease; 
+    margin-bottom: 30px;
+}
+
+.product:hover, .about:hover, .catalog:hover {
+    color: #6c63ff; 
+}
+
+.social-area {
+    background-color: #6c63ff; 
+    border-radius: 10%; 
+    padding: 15px; 
+    color: white; 
+    max-width: 200px;
+}
+
+.social-head {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.social {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.social img {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-left: 10px;
+}
+#soc2, #soc3{
+    margin-left: 30px;
 }
